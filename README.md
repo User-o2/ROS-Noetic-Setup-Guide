@@ -11,7 +11,7 @@
 * 保守配置：**8GB RAM + 6 vCPU（1*6）**
 * 激进配置：**10GB RAM + 8 vCPU（1*8）**
 
-![Ubuntu20.04 虚拟机配置](assets\image-20260417122030-moo8sop.png)
+![Ubuntu20.04 虚拟机配置](./assets/image-20260417122030-moo8sop.png)
 
 > 我的笔记本本身就只有**一颗物理 CPU**，VMware 模拟出多颗 CPU（多 Socket）没有任何性能提升，反而会增加系统调度开销。所以配置为 1*N 的模式。
 
